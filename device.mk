@@ -22,7 +22,24 @@
 # definition file).
 #
 GAPPS_VARIANT := nano
-GAPPS_PRODUCT_PACKAGES += Chrome CalendarGoogle Gmail Wallpapers CalculatorGoogle Maps Photos YouTube CloudPrint Drive ContactsGoogle Duo GooglePay Docs Sheets Messenger DialerGoogle
+GAPPS_PRODUCT_PACKAGES += \
+Chrome \
+CalendarGoogle \
+Gmail\
+Wallpapers \
+CalculatorGoogle \
+Maps \
+Photos \
+YouTube \
+CloudPrint \
+Drive \
+ContactsGoogle \
+Duo \
+GooglePay \
+Docs \
+Sheets \
+Messenger \
+DialerGoogle \
 
 BUILD_GAPPS_PREBUILT_APK # - for apps
 BUILD_GAPPS_PREBUILT_SHARED_LIBRARY # - for shared libraries
@@ -56,4 +73,3 @@ $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 #$(call inherit-product, vendor/oneplus/enchilada/enchilada-vendor.mk)
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
-
