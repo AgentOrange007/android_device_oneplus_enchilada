@@ -41,8 +41,8 @@ Sheets \
 Messenger \
 DialerGoogle \
 
-BUILD_GAPPS_PREBUILT_APK # - for apps
-BUILD_GAPPS_PREBUILT_SHARED_LIBRARY # - for shared libraries
+BUILD_GAPPS_PREBUILT_APK \
+BUILD_GAPPS_PREBUILT_SHARED_LIBRARY \
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
