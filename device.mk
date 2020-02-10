@@ -22,6 +22,7 @@
 # definition file).
 #
 GAPPS_VARIANT := nano
+GAPPS_PRODUCT_PACKAGES += Chrome CalendarGoogle Gmail Wallpapers CalculatorGoogle Maps Photos YouTube CloudPrint Drive ContactsGoogle Duo GooglePay Docs Sheets Messenger DialerGoogle
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
