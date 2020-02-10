@@ -23,26 +23,26 @@
 #
 GAPPS_VARIANT := nano
 GAPPS_PRODUCT_PACKAGES += \
-Chrome \
-CalendarGoogle \
-Gmail\
-Wallpapers \
-CalculatorGoogle \
-Maps \
-Photos \
-YouTube \
-CloudPrint \
-Drive \
-ContactsGoogle \
-Duo \
-GooglePay \
-Docs \
-Sheets \
-Messenger \
-DialerGoogle \
+    Chrome
+    CalendarGoogle
+    Gmail
+    Wallpapers
+    CalculatorGoogle
+    Maps
+    Photos
+    YouTube
+    CloudPrint
+    Drive
+    ContactsGoogle
+    Duo
+    GooglePay
+    Docs
+    Sheets
+    Messenger
+    DialerGoogle
 
-BUILD_GAPPS_PREBUILT_APK \
-BUILD_GAPPS_PREBUILT_SHARED_LIBRARY \
+BUILD_GAPPS_PREBUILT_APK 
+BUILD_GAPPS_PREBUILT_SHARED_LIBRARY 
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
