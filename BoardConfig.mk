@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+WITH_DEXPREOPT := true
 
 # Inherit from oneplus sdm845-common
 -include device/oneplus/sdm845-common/BoardConfigCommon.mk
