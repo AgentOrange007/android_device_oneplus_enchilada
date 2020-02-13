@@ -21,7 +21,6 @@
 # included in a build is to use PRODUCT_PACKAGES in a product
 # definition file).
 #
-GAPPS_VARIANT := nano
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
@@ -50,5 +49,3 @@ $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 
 # Inherit from vendor blobs
 #$(call inherit-product, vendor/oneplus/enchilada/enchilada-vendor.mk)
-
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
