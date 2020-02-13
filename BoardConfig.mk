@@ -26,5 +26,3 @@ TARGET_KERNEL_CONFIG := enchilada_defconfig
 
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
-
-WITH_DEXPREOPT := true
