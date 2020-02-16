@@ -24,5 +24,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 # Kernel
 TARGET_KERNEL_CONFIG := kronic_defconfig
 
+# Include @acuicultor Black twrp
+TARGET_PREBUILT_RECOVERY := device/oneplus/enchilada/prebuilt/recovery.img
+
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
