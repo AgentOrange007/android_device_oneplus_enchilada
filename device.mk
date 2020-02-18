@@ -32,6 +32,16 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Prebuilts
+PRODUCT_PACKAGES += \
+    OnePlusCamera \
+    OnePlusGallery \
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions-oem.xml:system/etc/permissions/privapp-permissions-oem.xml \
+    $(LOCAL_PATH)/prebuilts/etc/sysconfig/hiddenapi-package-whitelist-oneplus.xml:system/etc/sysconfig/hiddenapi-package-whitelist-oneplus.xml
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
