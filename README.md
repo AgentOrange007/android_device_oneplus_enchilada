@@ -23,15 +23,15 @@ Copyright 2018 - The LineageOS Project.
 
 ## Build instructions
 
-```
 <project path="device/oneplus/enchilada" remote="github" name="AgentOrange007/android_device_oneplus_enchilada" revision="lineage-17.1" />
 <project path="device/oneplus/sdm845-common" remote="github" name="LineageOS/android_device_oneplus_sdm845-common" revision="lineage-17.1" />
 <project path="kernel/oneplus/sdm845" remote="github" name="AOSiP-Devices/kernel_oneplus_sdm845" revision="ten" />
 <project path="vendor/oneplus" remote="github" name="AgentOrange007/proprietary_vendor_oneplus" revision="lineage-17.1" />
 
-# repo sync
+$ repo sync
 
-# Compiling
+## Compiling
+
 
 $ source build/envsetup.sh
 $ breakfast enchilada
@@ -39,4 +39,4 @@ $ croot
 $ brunch enchilada
 
 https://wiki.lineageos.org/devices/enchilada/build
-```
+´´´
