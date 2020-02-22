@@ -22,15 +22,15 @@ Copyright 2018 - The LineageOS Project.
 
 
 ## Build instructions
+´´´
+ Compiling
 
-# Compiling
+source build/envsetup.sh
+breakfast enchilada
+croot
+brunch enchilada
 
-# source build/envsetup.sh
-# breakfast enchilada
-# croot
-# brunch enchilada
-
-# https://wiki.lineageos.org/devices/enchilada/build
+https://wiki.lineageos.org/devices/enchilada/build
 
 repo sync
 
