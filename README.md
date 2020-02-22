@@ -20,22 +20,24 @@ Copyright 2018 - The LineageOS Project.
 
 ![OnePlus 6](https://cdn2.gsmarena.com/vv/pics/oneplus/oneplus-6-5.jpg "OnePlus 6")
 
+## Unofficial build instructions
 
-## Build instructions
-´´´
- Compiling
+```
+# Compiling
 
-source build/envsetup.sh
-breakfast enchilada
-croot
-brunch enchilada
+$ source build/envsetup.sh
+$ breakfast enchilada
+$ croot
+$ brunch enchilada
 
-https://wiki.lineageos.org/devices/enchilada/build
+$ https://wiki.lineageos.org/devices/enchilada/build
 
-repo sync
+$ repo sync
 
-<project path="device/oneplus/enchilada" remote="github" name="AgentOrange007/android_device_oneplus_enchilada" revision="lineage-17.1" />
-<project path="device/oneplus/sdm845-common" remote="github" name="LineageOS/android_device_oneplus_sdm845-common" revision="lineage-17.1" />
-<project path="kernel/oneplus/sdm845" remote="github" name="AOSiP-Devices/kernel_oneplus_sdm845" revision="ten" />
-<project path="vendor/oneplus" remote="github" name="AgentOrange007/proprietary_vendor_oneplus" revision="lineage-17.1" />
+## Local_manifest.xml/roomservice.xml
+
+$ <project path="device/oneplus/enchilada" remote="github" name="AgentOrange007/android_device_oneplus_enchilada" revision="lineage-17.1" />
+$ <project path="device/oneplus/sdm845-common" remote="github" name="LineageOS/android_device_oneplus_sdm845-common" revision="lineage-17.1" />
+$ <project path="kernel/oneplus/sdm845" remote="github" name="AOSiP-Devices/kernel_oneplus_sdm845" revision="ten" />
+$ <project path="vendor/oneplus" remote="github" name="AgentOrange007/proprietary_vendor_oneplus" revision="lineage-17.1" />
 ´´´
