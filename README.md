@@ -28,15 +28,16 @@ Copyright 2018 - The LineageOS Project.
 <project path="kernel/oneplus/sdm845" remote="github" name="AOSiP-Devices/kernel_oneplus_sdm845" revision="ten" />
 <project path="vendor/oneplus" remote="github" name="AgentOrange007/proprietary_vendor_oneplus" revision="lineage-17.1" />
 
-$ repo sync
+# repo sync
 
 ## Compiling
 
 
-$ source build/envsetup.sh
-$ breakfast enchilada
-$ croot
-$ brunch enchilada
+# source build/envsetup.sh
+# breakfast enchilada
+# croot
+# brunch enchilada
 
-https://wiki.lineageos.org/devices/enchilada/build
+# https://wiki.lineageos.org/devices/enchilada/build
+
 ´´´
