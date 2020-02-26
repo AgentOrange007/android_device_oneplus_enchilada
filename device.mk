@@ -24,6 +24,9 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
+GAPPS_VARIANT := nano
+GAPPS_FORCE_MATCHING_DPI := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -63,3 +66,5 @@ $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 
 # Inherit from vendor blobs
 #$(call inherit-product, vendor/oneplus/enchilada/enchilada-vendor.mk)
+
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
