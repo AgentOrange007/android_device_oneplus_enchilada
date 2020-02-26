@@ -24,8 +24,28 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
+# Include OpenGApps
 GAPPS_VARIANT := nano
 GAPPS_FORCE_MATCHING_DPI := true
+
+GAPPS_PRODUCT_PACKAGES += Chrome \
+    CalendarGoogle \
+    Gmail \
+    Wallpapers \
+    CalculatorGoogle \
+    ClockGoogle \
+    Maps \
+    Messenger \
+    Photos \
+    YouTube \
+    CloudPrint \
+    Drive \
+    ContactsGoogle \
+    DialerGoogle \
+    Duo \
+    GooglePay \
+    Docs \
+    Sheets \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -67,4 +87,5 @@ $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 # Inherit from vendor blobs
 #$(call inherit-product, vendor/oneplus/enchilada/enchilada-vendor.mk)
 
+# Inherit OpenGApps
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
